@@ -1,0 +1,25 @@
+{
+    "name": "JATE",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js",
+    "scripts": {
+        "server": "nodemon server.js --ignore client"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@apollo/client": "^3.7.1",
+        "@heroicons/react": "^2.0.13",
+        "@testing-library/jest-dom": "^5.16.5",
+        "dotenv": "^16.0.3",
+        "express": "^4.17.1",
+        "react": "^18.2.0",
+        "react-bootstrap": "^2.6.0",
+        "react-router-dom": "^6.4.4"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.4"
+    }
+}
